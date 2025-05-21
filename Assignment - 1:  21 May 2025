@@ -1,0 +1,26 @@
+1. What is application packaging?
+
+Application packaging is a way of bundling required files/settings to make installing, updating and uninstalling more easier. 
+
+Benefits: 
+Easy update and delete 
+Everything is there in the package like configuration files, permissions, setting files, execution files etc. 
+
+Installer:
+
+1. .exe: Means the file is executable, common installer format
+2. .msi: Microsoft installer 
+3. .appx or .msix: new version of Microsoft installer
+
+
+2. Steps to install MSIX
+
+.msix is a new version of .msi used for windows 10/11
+
+We can easily install, manage, uninstall applications
+It is safer among .exe and .msi
+
+Steps to install: 
+	
+	1. Open Poweshell as Administrator
+	2. Run this command :  Add-AppPackage -Path "---path of our .msix file---". 
